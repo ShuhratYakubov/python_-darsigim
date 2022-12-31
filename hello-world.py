@@ -103,19 +103,18 @@
 #print(f"Olmani narxi {mevalar['olma']} so'm ")
 #print(f"Shaftoli narxi {mevalar['shaftoli']}so'm ")
 #print(f"Nok qimmatroq {mevalar['nok']} so'm")
-#talaba_0 = {"ism_f":"abbos amandullayev","yosh":21, "t_yil":2001 }
-#print(f"Isim sharfi {talaba_0['ism_f'].title()},\
- #     yoshi {talaba_0['yosh']} ,\
- #     tug'ulgan yili {talaba_0['t_yil]")
-#print(f"Talaba {talaba_1['ism'].title()} hozigi vaqtda {talaba_1['kurs']}")
-#get metodi bilan ishlash
-#telefonlar ={ 
-    #"ali":"galaxy s10+",
-    #"vali":"ipxone 14 pro",
-    #"g'ani": "nokia lumiya ",
-    #"abbos": "redmi s2"
-    #}
-#phone = telefonlar["abbos"]
-#print(f"Abbosnin telefoni {telefonlar['abbos']}")
-#phone = telefonlar.get("vali" , "Bunday shahs haqida malumot yo'q")
-#print(phone)
+talaba_0 = {"ism_f":"abbos amandullayev","yosh":21, "t_yil":2001 }
+print(f"Isim sharfi {talaba_0['ism_f'].title()},\
+     yoshi {talaba_0['yosh']} ,\
+     tug'ulgan yili {talaba_0['t_yil]}")
+print(f"Talaba {talaba_1['ism'].title()} hozigi vaqtda {talaba_1['kurs']}")
+get metodi bilan ishlash
+telefonlar ={ 
+   "ali":"galaxy s10+",
+   "vali":"ipxone 14 pro",
+   "g'ani": "nokia lumiya ",
+   " abbos": "redmi s2"  }
+    phone = telefonlar["abbos"]
+print(f"Abbosnin telefoni {telefonlar['abbos']}")
+phone = telefonlar.get("vali" , "Bunday shahs haqida malumot yo'q")
+print(phone)
