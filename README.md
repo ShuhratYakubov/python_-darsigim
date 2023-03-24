@@ -1,2 +1,2 @@
-# python_-darsigim
-O'rganayotganlarim uchun havola
+# python_-lesson
+learn for lesson
